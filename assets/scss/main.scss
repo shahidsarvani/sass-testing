@@ -1,0 +1,12 @@
+@import 'reset';
+@import 'variables';
+
+.nav-link.active {
+    background-color: $primary-color;
+    color: $light-color !important;
+    border-radius: 30px;
+}
+
+li.nav-item {
+    padding: 0 10px;
+}
