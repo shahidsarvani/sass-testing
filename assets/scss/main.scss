@@ -1,5 +1,6 @@
-@import 'reset';
-@import 'variables';
+@import '_reset';
+@import '_variables';
+@import '_stylesheet';
 
 .nav-link.active {
     background-color: $primary-color;
@@ -9,4 +10,5 @@
 
 li.nav-item {
     padding: 0 10px;
+
 }
