@@ -1,6 +1,10 @@
 @import 'reset';
 @import 'variables';
 
+body{
+    font-family: $myFont !important;
+}
+
 .nav-link.active {
     background-color: $primary-color;
     color: $light-color !important;
@@ -9,4 +13,39 @@
 
 li.nav-item {
     padding: 0 10px;
+}
+
+.custom-cap {
+    position: absolute;
+    top: 44%;
+    left: 10%;
+}
+
+.custom-cap h5{
+    color: $secondary-color;
+    text-align: left;
+    font-size: 30px;
+}
+
+h5.title-carousel {
+    font-weight: bolder;
+    .custom-color{
+        color: $site-color;
+    }
+}
+
+.custom-cap p{
+    font-size: 18px;
+    color: $secondary-color;
+    text-align: left;
+}
+
+.footer-absolute{
+    background: $site-color;
+}
+
+ul.custom-ftr-inline {
+    display: flex;
+    justify-content: space-evenly;
+    color: $light-color;
 }
