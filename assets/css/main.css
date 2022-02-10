@@ -139,3 +139,25 @@ table {
 li.nav-item {
   padding: 0 10px;
 }
+
+.carousel-caption.d-none.d-md-block.custom-cap {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+}
+
+.carousel-caption.d-none.d-md-block.custom-cap h5.title-carousel {
+  font-size: 45px;
+  color: #000;
+  text-align: left;
+}
+
+.carousel-caption.d-none.d-md-block.custom-cap h5.title-carousel .custom-color {
+  color: #F7AD1D;
+}
+
+.carousel-caption.d-none.d-md-block.custom-cap p {
+  color: #000;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
